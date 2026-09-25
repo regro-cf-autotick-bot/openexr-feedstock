@@ -23,8 +23,9 @@ requirements:
   host:
     - libdeflate
     - imath
-    - openjph
+    - openjph >=0.32
     - zlib
+    - zstd
   run_exports:
     # https://abi-laboratory.pro/?view=timeline&l=openexr
     - ${{ pin_subpackage(name, upper_bound="x.x") }}
