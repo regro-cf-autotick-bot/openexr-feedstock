@@ -20,9 +20,9 @@ libdeflate:
 - '1.25'
 macos_machine:
 - x86_64-apple-darwin13.4.0
-openjph:
-- '0.31'
 target_platform:
 - osx-64
 zlib:
 - '1'
+zstd:
+- '1.5'

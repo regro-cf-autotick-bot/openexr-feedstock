@@ -10,9 +10,9 @@ imath:
 - 3.2.2
 libdeflate:
 - '1.25'
-openjph:
-- '0.31'
 target_platform:
 - win-64
 zlib:
 - '1'
+zstd:
+- '1.5'
